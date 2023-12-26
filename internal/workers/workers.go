@@ -3,8 +3,8 @@ package workers
 import (
 	"fmt"
 	"log"
-	"sa/src/git"
-	"sa/src/models"
+	"sa/pkg/database/models"
+	"sa/pkg/git"
 	"time"
 )
 

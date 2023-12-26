@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	pg "sa/src/database"
-	"sa/src/models"
-	"sa/src/workers"
+	"sa/internal/workers"
+	pg "sa/pkg/database"
+	"sa/pkg/database/models"
 
 	"github.com/lpernett/godotenv"
 )
